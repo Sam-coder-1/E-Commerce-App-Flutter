@@ -1,0 +1,57 @@
+name: e_commerce_app
+description: "An e commerce app"
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+#------------------ PACKAGES ------------------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #Utility Packages
+  http: ^1.2.1
+  intl: ^0.19.0
+  logger: ^2.2.0
+  url_launcher: ^6.2.6
+
+  #Icons
+  cupertino_icons: ^1.0.6
+  iconsax: ^0.0.8
+
+  # Satate Management
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Italic.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Light.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 800
+
